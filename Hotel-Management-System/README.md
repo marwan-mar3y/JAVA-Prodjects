@@ -1,37 +1,28 @@
-# E-commerce System
+# KOKO Hotel Management System
 
-This is a simple E-commerce system built in Java that allows customers to browse products, add them to their cart, and place an order. The system simulates the interaction between a customer and the e-commerce platform with various product types like electronics, clothing, and books.
+Welcome to the KOKO Hotel Management System! This project is a simple Java-based application that simulates a hotel management system with functionalities for both customers and administrators. The system allows customers to explore, view, and book rooms, while administrators can manage the hotel’s rooms and monitor bookings.
 
 ## Features
 
-- **Product Catalog**: Includes different types of products such as electronic items, clothing, and books.
-- **Shopping Cart**: Allows customers to add multiple products to their cart and calculate the total price.
-- **Order Placement**: Customers can place an order or cancel the order before confirmation.
-- **User Interaction**: The system takes input from the customer for details like name, address, and the number of products they wish to add.
+### Customer Features:
+- **Explore Available Rooms**: Choose between single and double rooms available in the hotel.
+- **View All Rooms**: View all rooms available across two floors.
+- **Book a Room**: Customers can book a room for a specific number of nights.
+- **List of Bookings**: View a list of rooms previously booked.
 
-## Technologies Used
+### Admin Features:
+- **Admin Login**: Administrators must log in using a username and password.
+- **Manage Rooms**: Administrators can manage the room status of rooms on both the first and second floors.
+- **Monitor Room Availability**: Admins can view room status and handle customer bookings.
 
-- **Java**: Main programming language used.
-- **OOP (Object-Oriented Programming)**: Classes for products (Electronic, Clothing, Book) and customer management.
-- **Scanner**: Used for handling user input.
+## Getting Started
 
-## Project Overview
+To get started with the project, follow the steps below:
 
-The system allows a customer to:
-1. Enter personal details like ID, name, and address.
-2. Browse a catalog of available products.
-3. Add selected products to the shopping cart.
-4. View the total price of selected items.
-5. Confirm or cancel the order.
+### Prerequisites:
+- **Java 8 or above** is required to run the project.
 
-### Class Structure:
-- **Product** (Base class for ElectronicProduct, ClothingProduct, and BookProduct): Represents a product with properties like name, price, and category.
-- **Customer**: Stores customer information (ID, name, address).
-- **Cart**: Manages the customer's shopping cart, calculates the total price, and places the order.
-
-## How to Run
-
-1. Clone the repository to your local machine:
-
+### How to Run:
+1. **Clone the repository** to your local machine:
    ```bash
-   git clone https://github.com/yourusername/ecommercesystem.git
+   git clone https://github.com/yourusername/hotel-management-system.git
